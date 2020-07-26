@@ -17,10 +17,17 @@
   <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link href='vendor/devicons/css/devicons.min.css' rel='stylesheet'>
+  <!-- <link href='vendor/devicons/css/devicons.min.css' rel='stylesheet'> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
 
   <!-- Custom styles for this template -->
   <link href="css/resume.min.css" rel="stylesheet">
+
+  <style>
+    .resume-section {
+      text-align: justify;
+    }
+  </style>
 
 </head>
 
@@ -48,7 +55,13 @@
           <a class="nav-link js-scroll-trigger" href="#experiences">Experiences</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#organizations">Organizations</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#workshops">Workshops</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#certifications">Certifications</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
@@ -67,11 +80,11 @@
         <h1 class="mb-0">Ahmadi Ahmar Ar
           <span class="text-primary" style="text-decoration: underline">Rayyan</span>
         </h1>
-        <div class="subheading mb-5">Balikpapan · INDONESIA ·
+        <div class="subheading mb-5">BALIKPAPAN · INDONESIA ·
           <a href="https://wa.me/6285708107225">+62 857 0810 7225</a>  ·
           <a href="mailto:ahmadirayyan@gmail.com">ahmadirayyan@gmail.com</a>
         </div>
-        <p class="lead mb-5">I am, a fresh graduate in information engineering, focusing on web development, data science, and project management. Experienced either in working solo or with a team to develop web apps. Motivated, focused, and eager to learn new things.</p>
+        <p class="lead mb-5">I am an information engineering graduate focusing on software engineering, data science, and project management. Experienced either in working individually or in a team to develop applications with various technology stacks. Motivated, focused, and eager to learn new things.</p>
         <div class="social-icons">
           <a href="https://www.linkedin.com/ahmadirayyan">
             <i class="fab fa-linkedin-in"></i>
@@ -92,11 +105,15 @@
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Universitas Gadjah Mada</h3>
-            <div class="subheading mb-3">Bachelor of Engineering - Information Engineering</div>
-            <p>Yogyakarta</p>
+            <div class="subheading mb-3">BE, Information Engineering, GPA 3.64 of 4.00</div>
+            <p><b>Final Project:</b><br>
+              Back-End Development of Gerakan Sekolah Menyenangkan Admin Dashboard Using Lean Startup Method<br>
+              <b>Highlights:</b><br>
+              [2017] Assistant of Database Lab Work (Ubuntu 16, MySQL)<br>
+              [2019] Assistant of OOP Lab Work (Windows 10, Visual Studio 2017, C#)</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">August 2015 - September 2019</span>
+            <span class="text-primary">Aug 2015 - Sep 2019<br>Yogyakarta</span>
           </div>
         </div>
 
@@ -104,10 +121,9 @@
           <div class="resume-content">
             <h3 class="mb-0">SMA Kharisma Bangsa</h3>
             <div class="subheading mb-3">Senior High School - Natural Science</div>
-            <p>Tangerang Selatan</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">August 2012 - May 2015</span>
+            <span class="text-primary">Aug 2012 - May 2015<br>South Tangerang</span>
           </div>
         </div>
 
@@ -115,10 +131,9 @@
           <div class="resume-content">
             <h3 class="mb-0">SMP Nasional KPS</h3>
             <div class="subheading mb-3">Junior High School</div>
-            <p>Balikpapan</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">August 2009 - June 2012</span>
+            <span class="text-primary">Aug 2009 - Jun 2012<br>Balikpapan</span>
           </div>
         </div>
 
@@ -126,10 +141,9 @@
           <div class="resume-content">
             <h3 class="mb-0">SD Nasional KPS</h3>
             <div class="subheading mb-3">Elementary School</div>
-            <p>Balikpapan</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">July 2003 - June 2009</span>
+            <span class="text-primary">Jul 2003 - Jun 2009<br>Balikpapan</span>
           </div>
         </div>
 
@@ -144,72 +158,87 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Back-end Developer of E-learning GSM (Admin Dashboard)</h3>
+            <h3 class="mb-0">Full Stack Developer Apprentice</h3>
+            <div class="subheading mb-3">PT Pertamina Hulu Mahakam</div>
+            <p style="text-align: justify;">I developed enterprise-level intranet web app from scratch individually. The main feature of the app is user’s competency management system. For user, he/she can monitor his/her competency and his/her subordinates’ competency. For admin, he/she can monitor and control all competency data, including access competency reports, modify competency matrix, modify user data, and import/export data from Excel files. Authentication using full-featured RBAC through windows authentication. The specifications of web app are as below:</p>
+            <ul>
+              <li>Core stacks: ASP.NET MVC, Microsoft SQL Server</li>
+              <li>Additional stacks: Entity Framework, Autofac, Elmah, NPOI, AdminLTE</li>
+              <li>Architecture: N-Tier Architecture (SoC principle, Web-Business-Data Layer)</li>
+              <li>Database practices: Stored Procedures, Triggers and Views, with intermediate-advanced query</li>
+              <li>Development process: Agile with 3 Sprints</li>
+            </ul>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Nov 2019 - Apr 2020<br>Balikpapan</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Back End Developer of E-learning GSM (Admin Dashboard)</h3>
             <div class="subheading mb-3">Gerakan Sekolah Menyenangkan</div>
-            <p>Developed E-learning GSM v1.0 (elearning.sekolahmenyenangkan.org) in a team consist of three people (Arga Wirawan and Dedy Kurniawan Santoso). I was developing the dashboard admin during the development. Programming language: PHP. Framework: Laravel. Database: MongoDB.</p>
+            <p>I developed REST APIs for Gerakan Sekolah Menyenangkan E-learning (Admin Dashboard). I worked in a team of 4 people, 1 front-end developer, 2 back-end developer and 1 android developer. Project management using Trello and project controls using GitHub private repositories. The features I developed are authentication using Laravel Passport, modules management, user management and school management. I developed some of the front-end scopes for Admin Dashboard too. The specifications are as below</p>
+            <ul>
+              <li>Core stacks: Laravel (PHP), MongoDB</li>
+              <li>Additional stacks: Moloquent (jenssegers), Laravel Passport (OAuth2)</li>
+              <li>Architecture: REST API</li>
+            </ul>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">Feb 2019 - Aug 2019</span>
+            <span class="text-primary">Feb 2019 - Aug 2019<br>Yogyakarta (Remote)</span>
           </div>
         </div>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Assistant of OOP Lab Work</h3>
-            <div class="subheading mb-3">Information Engineering, Universitas Gadjah Mada</div>
-            <p>Assist the participants of object oriented programming lab work. Progamming Language: C#. IDE: Visual Studio.</p>
+            <h3 class="mb-0">Full Stack Developer Intern</h3>
+            <div class="subheading mb-3">PT Pertamina Hulu Mahakam</div>
+            <p>I developed enterprise level intranet web app prototype using JSP and Oracle Database. The main feature is consuming SAP BAPI through SOAP web services provided by HR Department. My job were automating the data retrieval, synchronizing the newest data by creating main table dump table, and serving the data into the web app. The specifications are as below</p>
+            <ul>
+              <li>Core stacks: JSP (Java Server Pages), Oracle Database</li>
+              <li>Additional stacks: HTML, CSS, JS, Bootstrap, Consume SAP BAPI through SOAP Web Service</li>
+              <li>Practices: MVC Architecture and PL/SQL (data sync automation)</li>
+            </ul>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">Feb 2019 - May 2019</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Intern</h3>
-            <div class="subheading mb-3">PT Pertamina Hulu Mahakam Balikpapan</div>
-            <p>Learn construction and intervention of oil well through e-learning (IWCF Level 1 Programme, certified). Develop both back-end and front-end of internal web app prototype, using JSP (Java Server Pages), Javascript, Bootstrap, Java, and Oracle SQL. The features are retrieving data from SAP, sync the data retrieved to local db, and use the data for some function. Apply MVC architecture and stored procedure-trigger for data sync automation. Thanks to Mr. Sulaiman Rasyid as my mentor.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Aug 2018 - Oct 2019</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Assistant of Database Lab Work</h3>
-            <div class="subheading mb-3">Information Engineering, Universitas Gadjah Mada</div>
-            <p>Assist the participants of object oriented programming lab work. Progamming Language: C#. IDE: Visual Studio.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">July 2010 - December 2011</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Coordinator of Software Development Competition Committee</h3>
-            <div class="subheading mb-3">Technocorner UGM 2017</div>
-            <p>Managed a software development competition for college level. Develop a team drawer application using c# windows presentation foundation (wpf) for robotic tournament team drawer.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Aug 2016 - Apr 2017</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">Member of Software Development Competition Committee</h3>
-            <div class="subheading mb-3">Technocorner UGM 2016</div>
-            <p>Managed a software development competition for college level by the direction of coordinator. Develop a simple timer application using c# windows form for participants' presentation timer.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Oct 2015 - Mar 2016</span>
+            <span class="text-primary">Aug 2018 - Oct 2019<br>Balikpapan</span>
           </div>
         </div>
 
       </div>
 
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="organizations">
+      <div class="w-100">
+        <h2 class="mb-5">Organizations</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Coordinator of Software Development Competition Committee</h3>
+            <div class="subheading mb-3">Technocorner UGM 2017</div>
+            <p>Managed a software development competition for college level. Develop a team drawer application using C# WPF (Windows Presentation Foundation) for robotic tournament team drawer.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Aug 2016 - Apr 2017<br>Yogyakarta</span>
+          </div>
+        </div>
+  
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">Member of Software Development Competition Committee</h3>
+            <div class="subheading mb-3">Technocorner UGM 2016</div>
+            <p>Managed a software development competition for college level by the direction of coordinator. Develop a simple timer application using C# WinForms (Windows Forms) for participants' presentation timer.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Oct 2015 - Mar 2016<br>Yogyakarta</span>
+          </div>
+        </div>
+
+      </div>
     </section>
 
     <hr class="m-0">
@@ -225,7 +254,7 @@
             <p>Participant of Fresh Graduate Academy Artificial Intelligence Digital Talent Scholarship by Kementerian Komunikasi dan Informatika RI. I was learning basic cloud, AWS cloud, data science and Python for data science (regression, clustering and classification) during the program.</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">Jul 2019 - Aug 2019</span>
+            <span class="text-primary">Jul 2019 - Aug 2019<br>Yogyakarta</span>
           </div>
         </div>
 
@@ -236,7 +265,7 @@
             <p>I was learning basic web development, including both front-end and back-end, during the program. Programming language: PHP, HTML, CSS, JS. OS: CentOS.</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">Oct 2017 - Dec 2017</span>
+            <span class="text-primary">Oct 2017 - Dec 2017<br>Yogyakarta</span>
           </div>
         </div>
 
@@ -247,7 +276,7 @@
             <p>Participant of Pelatihan Nasional 1 Computer Olympiad by Kementerian Pendidikan dan Budaya RI. I was learning competitive programming using C++ during the program.</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">Sep 2014 - Nov 2014</span>
+            <span class="text-primary">Sep 2014 - Nov 2014<br>Bandung</span>
           </div>
         </div>
 
@@ -257,56 +286,116 @@
 
     <hr class="m-0">
 
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="certifications">
+      <div class="w-100">
+        <h2 class="mb-5">Certifications</h2>
+        
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Participant of FGA AI Digital Talent Scholarship by KOMINFO</h3>
+            <div class="subheading mb-3">DTETI UGM, Yogyakarta</div>
+            <p>Participant of Fresh Graduate Academy Artificial Intelligence Digital Talent Scholarship by Kementerian Komunikasi dan Informatika RI. I was learning basic cloud, AWS cloud, data science and Python for data science (regression, clustering and classification) during the program.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Jul 2019 - Aug 2019<br>Yogyakarta</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <hr class="m-0">
+
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
       <div class="w-100">
         <h2 class="mb-5">Skills</h2>
 
-        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-        <ul class="list-inline dev-icons">
-          <li class="list-inline-item">
-            <i class="devicons devicons-html5"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="devicons devicons-css3"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="devicons devicons-javascript"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="devicons devicons-php"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="devicons devicons-java"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="devicons devicons-python"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="devicons devicons-laravel"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="devicons devicons-mysql"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="devicons devicons-mongodb"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="devicons devicons-git"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="devicons devicons-trello"></i>
-          </li>
-        </ul>
+        <div class="row">
+          <div class="col-md-6">
 
-        <div class="subheading mb-3">Workflow</div>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Lean Startup</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Agile Development</li>
-        </ul>
+            <div class="subheading mb-3">Programming Languages</div>
+            <ul class="list-inline dev-icons">
+              <li class="list-inline-item">
+                <i class="devicon-csharp-plain"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="devicon-php-plain"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="devicon-python-plain"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="devicon-html5-plain"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="devicon-css3-plain"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="devicon-javascript-plain"></i>
+              </li>
+            </ul>
+
+            <div class="subheading mb-3">Databases</div>
+            <ul class="list-inline dev-icons">
+              <li class="list-inline-item">
+                <i><h5>SQL Server</h5></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="devicon-mysql-plain"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="devicon-oracle-plain"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="devicon-mongodb-plain"></i>
+              </li>
+            </ul>
+
+            <div class="subheading mb-3">Development Process</div>
+            <ul class="fa-ul mb-0">
+              <li>
+                <i class="fa-li fa fa-check"></i>
+                Lean Startup</li>
+              <li>
+                <i class="fa-li fa fa-check"></i>
+                Agile</li>
+            </ul>
+
+          </div>
+          <div class="col-md-6">
+
+            <div class="subheading mb-3">Frameworks</div>
+            <ul class="list-inline dev-icons">
+              <li class="list-inline-item">
+                <i class="devicon-dot-net-plain"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="devicon-laravel-plain"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="devicon-django-plain"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="devicon-vuejs-plain"></i>
+              </li>
+            </ul>
+            
+            <div class="subheading mb-3">Tools</div>
+            <ul class="list-inline dev-icons">
+              <li class="list-inline-item">
+                <i class="devicon-git-plain"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="devicon-trello-plain"></i>
+              </li>
+              <li class="list-inline-item">
+                <i><h5>Postman</h5></i>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+
       </div>
     </section>
 
