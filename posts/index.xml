@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>All Posts - Ahmadi Ahmar Ar Rayyan</title>
+        <link>http://example.org/posts/</link>
+        <description>All Posts | Ahmadi Ahmar Ar Rayyan</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>ahmadirayyan@gmail.com (Ahmadi Ahmar Ar Rayyan)</managingEditor>
+            <webMaster>ahmadirayyan@gmail.com (Ahmadi Ahmar Ar Rayyan)</webMaster><lastBuildDate>Mon, 10 Jul 2023 07:21:05 &#43;0000</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>First Post</title>
+    <link>http://example.org/posts/first-post/</link>
+    <pubDate>Mon, 10 Jul 2023 07:21:05 &#43;0000</pubDate>
+    <author>Ahmadi Ahmar Ar Rayyan</author>
+    <guid>http://example.org/posts/first-post/</guid>
+    <description><![CDATA[Hello. This is my first post using Hugo.
+See you on the next post!]]></description>
+</item>
+</channel>
+</rss>
