@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Tags - Tag - Ahmadi Ahmar Ar Rayyan</title>
-        <link>http://example.org/tags/</link>
+        <link>https://ahmadirayyan.github.io/tags/</link>
         <description>Tags - Tag - Ahmadi Ahmar Ar Rayyan</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>ahmadirayyan@gmail.com (Ahmadi Ahmar Ar Rayyan)</managingEditor>
-            <webMaster>ahmadirayyan@gmail.com (Ahmadi Ahmar Ar Rayyan)</webMaster><atom:link href="http://example.org/tags/" rel="self" type="application/rss+xml" /></channel>
+            <webMaster>ahmadirayyan@gmail.com (Ahmadi Ahmar Ar Rayyan)</webMaster><atom:link href="https://ahmadirayyan.github.io/tags/" rel="self" type="application/rss+xml" /></channel>
 </rss>
